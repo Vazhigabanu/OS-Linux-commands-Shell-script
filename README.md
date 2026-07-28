@@ -380,19 +380,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![urllist](./op-img/url1.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![urllist](./op-img/url2.png)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
-
+![urllist](./op-img/url31.png)
+![urllist](./op-img/url32.png)
+![urllist](./op-img/url33.png)
 mkdir backupdir
  
 mv backup.tar backupdir
