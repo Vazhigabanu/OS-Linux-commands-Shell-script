@@ -392,8 +392,11 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 tar -cvf backup.tar *
 ## OUTPUT
 ![urllist](./op-img/url31.png)
+
 ![urllist](./op-img/url32.png)
+
 ![urllist](./op-img/url33.png)
+
 mkdir backupdir
  
 mv backup.tar backupdir
