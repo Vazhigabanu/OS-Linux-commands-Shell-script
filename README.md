@@ -111,44 +111,44 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-![cut](./op-img/grepH.png)
+![cut-grepH](./op-img/grepH.png)
 
 
 
 grep hello newfile 
 ## OUTPUT
-![cut](./op-img/greph.png)
+![cut-greph](./op-img/greph.png)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-![cut](./op-img/grep-v.png)
+![cut-grepv](./op-img/grep-v.png)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![cut](./op-img/grep-i.png)
+![cut-grepi](./op-img/grep-i.png)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![cut](./op-img/grep-i-c.png)
+![cut-grepic](./op-img/grep-i-c.png)
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-![cut](./op-img/grep-r1.png)
-![cut](./op-img/grep-r3.png)
+![cut-grepr](./op-img/grep-r1.png)
+![cut-grepr2](./op-img/grep-r3.png)
 
 
 grep -w -n world newfile   
 ## OUTPUT
-![cut](./op-img/grep-w-n.png)
+![cut-grepw](./op-img/grep-w-n.png)
 
 
 cat < newfile 
