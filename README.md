@@ -111,7 +111,7 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-![cut-grepH](./op-img/grepH.png)
+![cut-grepH](./op-img/grep1.png)
 
 
 
