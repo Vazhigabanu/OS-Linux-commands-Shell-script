@@ -380,22 +380,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-![urllist](./op-img/url1.png)
+
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-![urllist](./op-img/url2.png)
+
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![urllist](./op-img/url31.png)
 
-![urllist](./op-img/url32.png)
-
-![urllist](./op-img/url33.png)
 
 mkdir backupdir
  
@@ -405,27 +401,19 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![backup](./op-img/back1.png)
 
-![backup](./op-img/back11.png)
 
 tar -xvf backup.tar
 ## OUTPUT
-![backup](./op-img/back2.png)
-
-![backup](./op-img/back21.png)
-
-![backup](./op-img/back23.png)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
-![backup](./op-img/back3.png)
  
 gunzip backup.tar.gz
 ## OUTPUT
-![backup](./op-img/back4.png)
+
  
 # Shell Script
 ```
