@@ -482,27 +482,33 @@ ps
 ```
  
 chmod 777 scriptest.sh
- 
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![chmod](./op-img/ch2.png)
 
  
 ls file1
 ## OUTPUT
+![lsfile](./op-img/ls2.png)
 
 echo $?
 ## OUTPUT 
+![lsfile](./op-img/ls3.png)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+![lsfile](./op-img/ls4.png)
+
  
 abcd
  
 echo $?
  ## OUTPUT
+ ![lsfile](./op-img/ls5.png)
 
 
  
