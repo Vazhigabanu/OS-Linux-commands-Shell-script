@@ -576,6 +576,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
 ![pssfile](./op-img/pss1.png)
 
 # check if with file location
@@ -623,6 +624,8 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![iffile](./op-img/if1.png)
+
 
 
 
@@ -666,7 +669,10 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
+
 ##OUTPUT
+![iffile](./op-img/if2.png)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -716,6 +722,9 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+
+![iffile](./op-img/if3.png)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
