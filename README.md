@@ -435,7 +435,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
+![chmod](./op-img/chmod1.png)
  
 cat << stop > herecheck.txt
 ```
@@ -447,6 +447,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![chmod](./op-img/chmod2.png)
 
 
 cat < scriptest.sh 
