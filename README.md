@@ -541,13 +541,14 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-
+![misfile](./op-img/mis1.png)
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![misfile](./op-img/mis2.png)
 
 
 # check file ownership
