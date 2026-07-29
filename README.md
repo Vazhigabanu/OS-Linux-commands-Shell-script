@@ -1042,11 +1042,12 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
- ./funcex.sh 
+./funcex.sh 
 
- 
  ./funcex.sh 1 2
+## OUTPUT
+![funfile](./op-img/fun1.png)
+
 
  
 cat argshift.sh
@@ -1058,9 +1059,11 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+$ ./argshift.sh 1 2 3
 
 ## OUTPUT
-$ ./argshift.sh 1 2 3
+![funfile](./op-img/fun2.png)
+
  
  cat argshift1.sh
 ```bash
@@ -1076,23 +1079,13 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
- 
-cat argshift.sh
-```bash
-#!/bin/bash 
-set -x 
-while (( "$#" )); do 
-  echo $1 
-  shift 
-done
-set +x
-```
+
 ## OUTPUT
- ./argshift.sh 1 2 3
- 
- 
+![funfile](./op-img/fun3.png)
+
+
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1122,6 +1115,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![funfile](./op-img/fun4.png)
  
 cat > palindrome.sh
 ```bash
@@ -1149,6 +1143,7 @@ else
 fi
 ```
 ## OUTPUT 
+![funfile](./op-img/fun5.png)
 
 
 # RESULT:
