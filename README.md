@@ -883,8 +883,11 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![forinfile](./op-img/forin1.png)
+
 cat forinfile.sh 
-```bash
+```
+bash
 #!/bin/bash
 # reading values from a file
 file="cities"
@@ -904,6 +907,8 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![forinfile](./op-img/forin2.png)
+
 
 
 cat forctype.sh 
@@ -917,7 +922,10 @@ done
 ````
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
+
 ## OUTPUT
+![forinfile](./op-img/forin3.png)
+
 
 cat forctype1.sh 
 ```bash
@@ -931,6 +939,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![forinfile](./op-img/forin4.png)
+
 
 cat fornested1.sh 
 ```bash
@@ -949,6 +959,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ ![nestedfile](./op-img/nes1.png)
+
 
  
 cat forbreak.sh 
@@ -965,13 +977,16 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
 
 $ chmod 755 forbreak.sh
- 
 $ ./forbreak.sh 
  
-cat forbreak.sh 
+## OUTPUT
+![nestedfile](./op-img/nes2.png)
+
+
+ 
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -990,7 +1005,10 @@ echo "The for loop is completed“
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
+
 ## OUTPUT
+![nested](./op-img/nes3.png)
+
  
 cat exread.sh 
 ```bash
@@ -1005,22 +1023,9 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![nestedfile](./op-img/nes4.png)
 
-
- cat exread1.sh
-```bash
-#!/bin/bash
-# testing the read command
-read -p "Enter your name: " name
-echo "Hello $name, welcome to my program. “
-``` 
-$ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
-$ ./exread1.sh 
+ 
  
 cat funcex.sh
 ```bash
