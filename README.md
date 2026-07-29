@@ -753,6 +753,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![eliffile](./op-img/elif1.png)
 
 
 # testing compound comparisons
@@ -769,6 +770,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![eliffile](./op-img/elif2.png)
+
 
 # using the case command
 cat >casecheck.sh 
